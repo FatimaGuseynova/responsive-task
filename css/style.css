@@ -15,8 +15,8 @@
 
 
 .bg-photo {
-    background: url("../img/hamburger.jpg")center/cover;
-    height: 100vh;
+    background: url("../img/hamburger.jpg")40% 50%/cover;
+    height: 85vh;
 }
 
 .navbar-all {
@@ -56,7 +56,7 @@
     font: 400 36px "Playfair Display";
     display: flex;
     align-items: flex-end;
-    height: 100vh;
+    height: 85vh;
 }
 
 /* about */
@@ -208,6 +208,9 @@ form a {
         margin: 40px 0;
     }
 
+    .bg-photo {
+        background: url("../img/hamburger.jpg")center/cover;
+        height: 100vh;
+    }
 
-
-} 
+}
